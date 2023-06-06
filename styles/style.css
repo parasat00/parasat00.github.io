@@ -66,12 +66,15 @@ nav {
 }
 .dark_mode #stack h3,
 .dark_mode #stack strong {color: #fff;}
+.linkedin_container,
 .sunAndMoon, .aside {
  width: 30px;
  height: 30px;
  min-width: 30px;
 }
+.linkedin_container a,
 .aside a {height: 100%; width: 100%;}
+.linkedin_container img,
 .aside img,
 .sunAndMoon img { 
  width: 100%;
@@ -255,6 +258,7 @@ section#stack {padding-top: 350px; margin-top: -300px;}
  .nav_list {flex-direction: column-reverse;}
  .greetings_txt h1 {font-size: 1.3rem;}
  .my_photo {margin-bottom: 0;}
+ .nav_list .linkedin_container,
  .nav_list .aside, 
  .nav_list .sunAndMoon {margin: 0 auto;}
 }
