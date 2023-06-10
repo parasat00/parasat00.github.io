@@ -1,34 +1,20 @@
 const sunAndMoon = document.querySelector('.sunAndMoon');
-const body = document.getElementsByTagName('body')[0];
-let isLight = true;
+const css = document.getElementById('theme');
 
-const git_icon = document.querySelector('.github_logo');
-const linkedin_logo = document.querySelector('.linkedin');
-git_icon.setAttribute('src', "./images/github-mark.svg");
-linkedin_logo.setAttribute('src', "./images/linkedin.svg");
-
-const switchMode = (event) => {
- body.classList.toggle('dark_mode');
+const switchMode = (e) => {
+ let theme = localStorage.getItem('currentTheme');
  
- sunAndMoon.children[0].remove();
-
- 
- if(isLight) {
-  let sun = document.createElement('img');
-  sun.className='sun';
-  sun.setAttribute('src', './images/sun-warm-icon.svg');
-  sunAndMoon.appendChild(sun);
-  isLight=false;
-  git_icon.setAttribute('src', "./images/github-mark-white.svg");
-  linkedin_logo.setAttribute('src', "./images/white-linkedin.svg");
+ if(e !== undefined) {
+  theme = theme === 'dark' ? 'light' : 'dark';
  }
- else {
-  let moon = document.createElement('img');
-  moon.setAttribute('src', './images/moon-icon.svg');
-  sunAndMoon.appendChild(moon);
-  isLight=true;
-  git_icon.setAttribute('src', "./images/github-mark.svg");
-  linkedin_logo.setAttribute('src', "./images/linkedin.svg");
+
+ if(theme === null || theme === 'dark') {
+  css.href = './styles/dark_mode.css';
+  localStorage.setItem('currentTheme', 'dark');
+ }
+ else if(theme === 'light') {
+  css.href = './styles/light_mode.css';
+  localStorage.setItem('currentTheme', 'light');
  }
 }
 
@@ -39,3 +25,4 @@ let setYear = () => {
 
 setYear();
 sunAndMoon.addEventListener('click', switchMode);
+switchMode();
