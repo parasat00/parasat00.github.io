@@ -141,12 +141,12 @@ section.main {
  display: grid;
  grid-template-columns: repeat(auto-fill, minmax(30%, 50%));
 }
-#projects .grid {grid-template-rows: 150px;}
+#projects .grid {grid-template-rows: 160px;}
 #projects .project {
  overflow: hidden;
  padding: 10px;
  margin: 0;
- font-size: 1.2rem;
+ font-size: 1rem;
  line-height: 1.3rem;
  border-bottom: 1px solid gray;
 }
@@ -214,6 +214,13 @@ section#stack {padding-top: 350px; margin-top: -300px;}
  .greetings_txt h1 {font-size: 1.7rem;}
  section#home {padding-top: 280px;}
 }
+@media only screen and (max-width: 1000px) {
+ #projects .project .txt {
+  height: 124px;
+  overflow-y: hidden;
+ }
+}
+
 @media only screen and (max-width: 800px) {
  .greetings,
  .nav_list,
@@ -225,13 +232,16 @@ section#stack {padding-top: 350px; margin-top: -300px;}
  }
  section#home {padding-top: 270px;}
  footer {font-size: 1rem;}
+ #projects .grid {
+  grid-template-rows: 170px;
+ }
+ #projects .project {font-size: 0.9rem;}
 }
 @media only screen and (max-width: 600px) {
  section#home {padding-top: 240px;}
  .greetings_txt h1 {font-size: 1.4rem;}
   .nav_list li,
  .nav_list li.border {padding: 0.2rem 0.7rem; font-size: 1rem; margin: 10px 0.5rem;}
- #projects .project,
  .my_paragraph {font-size: 1rem;}
  #stack h1,
  section > h1 {font-size: 1.3rem;}
@@ -255,6 +265,7 @@ section#stack {padding-top: 350px; margin-top: -300px;}
  .nav_list .aside, 
  .nav_list .sunAndMoon {margin: 0 auto;}
  section#home {padding-top: 290px;}
+ .project--stack {flex-wrap: wrap;}
 }
 @media only screen and (max-width: 400px) {
  .greetings_txt h1 {font-size: 1.2rem; line-height: 1.4rem;}
