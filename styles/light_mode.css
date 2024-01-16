@@ -1,5 +1,6 @@
 .theme_toggler {
- background: url('../images/moon-icon.svg');
+ background: url('../images/white-moon.png');
+ background-size: contain;
 }
 .github_link {
  background-image: url('../images/github-mark.svg');
@@ -8,13 +9,17 @@
  background-image: url('../images/linkedin.svg');
 }
 body {
- background-color: #f7fff7;
+ background-color: #f8f8f8;
  transition: 1s;
 }
 
 nav {
- background-color: #f7fff7;
+ background-color: #121212;
+ color: #f8f8f8;
  transition: 1s;
+}
+.nav_list a {
+ color: #f8f8f8;
 }
 
 .greetings h1 {
@@ -44,4 +49,17 @@ footer {
 section>h1 {
  color: #313638;
 }
-.resume {border: 1px solid black;}
+
+.mobile_nav {
+ background-color: #000;
+}
+.mobile_nav a {
+ color: #fff;
+}
+.nav_toggle {
+ background-color: #121212;
+ color: #f8f8f8;
+}
+.mobile_nav_toggle {
+ color: #f8f8f8;
+}

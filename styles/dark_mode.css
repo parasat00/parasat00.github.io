@@ -1,20 +1,26 @@
 body {
  background-color: #121212;
- transition: 1s;
 }
 .theme_toggler {
  background-image: url('../images/sun.svg');
  filter: contrast(200%);
 }
+
 .github_link {
  background-image: url('../images/github-mark-white.svg');
 }
+
 .linkedin_link {
  background-image: url('../images/white-linkedin.svg');
 }
 
-nav {
+section {
  background-color: #121212;
+ transition: 2s;
+}
+
+nav {
+ background-color: #fff;
  transition: 1s;
 }
 .greetings h1 {
@@ -41,4 +47,15 @@ footer {
 #stack h1,
 section>h1 {
  color: #fff;
+}
+
+.mobile_nav {
+ background-color: #f8f8f8;
+}
+.mobile_nav a {
+ color: #010101;
+}
+.nav_toggle {
+ background-color: #fff;
+ color: #121212;
 }

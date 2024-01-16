@@ -1,0 +1,71 @@
+#about {
+ padding: 0 10vw 10vh;
+}
+
+#about h1 {
+ text-align: center;
+ font-size: 3rem;
+ color: #cea27f;
+}
+
+#about .grid {
+ display: grid;
+ grid-template-columns: 0.7fr 1fr;
+}
+
+#about img {
+ max-width: 90%;
+ border-radius: 50%;
+}
+
+#about .text {
+ font-size: 1.25rem;
+}
+
+#about a {
+ text-decoration: none;
+ color: #cea27f;
+}
+
+#about a.resume {
+ padding: 5px 10px;
+ color: #fff;
+ border-radius: 5px;
+ background-color: rgb(221, 177, 140);
+ display: flex;
+ width: fit-content;
+ align-items: center;
+ font-size: 1.1rem;
+}
+
+#about a.resume:hover {
+ background-color: rgb(206, 162, 127);
+}
+
+#about a.resume i {
+ margin-left: 10px;
+}
+
+@media only screen and (max-width: 1000px){
+ #about .text {font-size: 1rem;}
+}
+@media only screen and (max-width: 800px) {
+ #about {
+  padding: 0 5vw 10vh;
+ }
+ #about .grid {
+  grid-template-columns: 1fr 1fr;
+ }
+ #about h1 {font-size: 2rem;}
+}
+@media only screen and (max-width: 600px) {
+ #about .grid {
+  display: block;
+ }
+ #about .pic{
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+ }
+}
