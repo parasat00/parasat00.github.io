@@ -12,43 +12,21 @@ section {
 }
 
 nav {
- background-color: #fff;
+ background-color: #f8f8f8;
  transition: 1s;
-}
-
-.greetings h1 {
- color: #fff;
-}
-
-.greetings h2 {
- color: rgb(156, 163, 175);
-}
-
-#stack .info,
-.my_paragraph,
-footer {
- color: rgb(222 224 226);
-}
-
-#stack h3,
-#stack strong {
- color: #fff;
-}
-#projects .project:hover {
- background-color: #232323;
-}
-#stack h1,
-section>h1 {
- color: #fff;
 }
 
 .mobile_nav {
  background-color: #f8f8f8;
 }
 .mobile_nav a {
- color: #010101;
+ color: #121212;
 }
 .nav_toggle {
- background-color: #fff;
+ background-color: #f8f8f8;
  color: #121212;
+}
+
+#about .text {
+ color: #f8f8f8;
 }

@@ -8,34 +8,6 @@ body {
  transition: 1s;
 }
 
-.greetings h1 {
- color: #313638;
-}
-
-.greetings h2 {
- color: #313638;
-}
-
-#stack .info,
-.my_paragraph,
-footer {
- color: #313638;
-}
-
-#stack h3,
-#stack strong {
- color: #313638;
-}
-
-#projects .project:hover {
- background-color: #d0d3d0;
-}
-
-#stack h1,
-section>h1 {
- color: #313638;
-}
-
 /* Nav styles */
 nav {
  background-color: #121212;
@@ -48,10 +20,10 @@ nav {
 }
 
 .mobile_nav {
- background-color: #000;
+ background-color: #121212;
 }
 .mobile_nav a {
- color: #fff;
+ color: #f8f8f8;
 }
 .nav_toggle {
  background-color: #121212;
