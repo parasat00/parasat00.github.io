@@ -1,4 +1,9 @@
 /* Nav Bar */
+.theme_toggler {
+ width: 100%;
+ height: 100%;
+} 
+
 nav {
  box-sizing: border-box;
  position: fixed;
@@ -163,7 +168,7 @@ nav {
   font-size: 1.2rem;
  }
  .mobile_nav ul {
-  padding: 0 5px;
+  padding: 0 10px;
   column-gap: 0;
   grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
  }

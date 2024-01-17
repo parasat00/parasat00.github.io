@@ -2,24 +2,10 @@
  background: url('../images/white-moon.png');
  background-size: contain;
 }
-.github_link {
- background-image: url('../images/github-mark.svg');
-}
-.linkedin_link {
- background-image: url('../images/linkedin.svg');
-}
+
 body {
  background-color: #f8f8f8;
  transition: 1s;
-}
-
-nav {
- background-color: #121212;
- color: #f8f8f8;
- transition: 1s;
-}
-.nav_list a {
- color: #f8f8f8;
 }
 
 .greetings h1 {
@@ -50,6 +36,17 @@ section>h1 {
  color: #313638;
 }
 
+/* Nav styles */
+nav {
+ background-color: #121212;
+ color: #f8f8f8;
+ transition: 1s;
+}
+
+.nav_list a {
+ color: #f8f8f8;
+}
+
 .mobile_nav {
  background-color: #000;
 }
@@ -63,3 +60,10 @@ section>h1 {
 .mobile_nav_toggle {
  color: #f8f8f8;
 }
+/* Nav styles ^^^ */
+
+/* Home styles */
+#home .info {
+ color: #121212;
+}
+/* Home styles ^^^ */

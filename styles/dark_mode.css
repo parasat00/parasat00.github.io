@@ -6,14 +6,6 @@ body {
  filter: contrast(200%);
 }
 
-.github_link {
- background-image: url('../images/github-mark-white.svg');
-}
-
-.linkedin_link {
- background-image: url('../images/white-linkedin.svg');
-}
-
 section {
  background-color: #121212;
  transition: 2s;
