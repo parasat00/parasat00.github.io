@@ -12,6 +12,7 @@
  <link rel="stylesheet" href="./styles/nav.css" name="nav">
  <link rel="stylesheet" href="./styles/home.css" name="home">
  <link rel="stylesheet" href="./styles/about.css" name="about">
+ <link rel="stylesheet" href="./styles/education.css" name="education">
  <link rel="stylesheet" href="" id="theme" name="theme">
  <link href="./images/logo.png" type="image/x-icon" rel="icon" />
 
@@ -25,9 +26,10 @@
     <li class="logo"><img src="/images/logo.png" /></li>
     <li><a href="#home">Home</a></li>
     <li><a href="#about">About me</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#qualifications">Qualifications</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
     <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
     <li class="sunAndMoon">
       <div class="theme_toggler icon-back"></div>
     </li>
@@ -53,21 +55,27 @@
       </a>
     </li>
     <li>
-      <a href="#projects">
-        <i class="fa fa-code" aria-hidden="true"></i>
-        Projects
+      <a href="#education">
+        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+        Education
       </a>
     </li>
     <li>
-      <a href="#qualifications">
-        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-        Qualifications
+      <a href="#skills">
+        <i class="fa fa-cogs" aria-hidden="true"></i>
+        Skills
       </a>
     </li>
     <li>
       <a href="#experience">
         <i class="fa fa-briefcase" aria-hidden="true"></i>
         Experience
+      </a>
+    </li>
+    <li>
+      <a href="#projects">
+        <i class="fa fa-code" aria-hidden="true"></i>
+        Projects
       </a>
     </li>
     <li class="sunAndMoon">
@@ -77,15 +85,7 @@
   <i class="fa fa-times mobile_nav_toggle" aria-hidden="true"></i>
  </div>
 
-<!-- <div class="greetings">
-  <div class="my_photo">
-    <img src="./images/profile_pic.jpg" alt="my photo">
-  </div>
-  <div class="greetings_txt">
-    <h1>Parassat Zhangbyrbay</h1>
-    <h2>Backend Developer</h2>
-  </div>
-</div> -->
+<!-- HOME -->
   <section class="home" id="home">
     <div class="links">
       <a target="_blank" href="https://github.com/parasat00">
@@ -108,7 +108,9 @@
       <span class="typing"></span>
     </div>
   </section>
+  <!-- HOME ^^^ -->
 
+  <!-- MAIN -->
   <section class="main" id="about">
    <h1>About me</h1>
    <div class="grid">
@@ -134,51 +136,77 @@
       </a>
     </div>
    </div>
-   
   </section>
+  <!-- MAIN ^^^ -->
 
-  <section id="qualifications">
-   <div class="flex">
-    <h1>Qualifications</h1>
+  <!-- EDUCATION -->
+  <section id="education">
+   <h1>Education</h1>
+
+   <div class="container">
+
+    <div class="text first">
+      <div class="point"></div>
+      <div class="center_line"></div>
+
+      <h3 class="edu_name">General Secondary School №1</h3>
+      <p class="location">Primary School - Qulsary</p>
+      <span class="date">
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+        2006-2013
+      </span>
+    </div>
+
+    <div class="text second">
+      <div class="point"></div>
+      <div class="center_line"></div>
+
+      <h3 class="edu_name">Nazarbayev Intellectual School</h3>
+      <p class="location">High School- Atyrau</p>
+      <span class="date">
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+        2013-2019
+      </span>
+    </div>
+
+    <div class="text first">
+      <div class="point"></div>
+      <div class="center_line"></div>
     
-   </div>
-  
-   <div class="info">
-    <section>
-     <h3>Spoken Languages:</h3>
-     <ul>
-      <li><strong>Kazakh</strong> Native Language</li>
-      <li><strong>English</strong> Professional proficiency</li>
-      <li><strong>Russian</strong> Second Language</li>
-     </ul>
-    </section>
+      <h3 class="edu_name">Suleyman Demirel University</h3>
+      <p class="location">Computer Science Bachelor - Almaty</p>
+      <span class="date">
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+        2019-2023
+      </span>
+    </div>
 
-    <!-- <a href="./CV.pdf" class="resume" download>
-      Resume
-      <img src="./images/download-icon.svg" alt="download">
-    </a> -->
-  
-    <section>
-     <h3 class="mrg">Languages:</h3>
-     <div class="tag">Python</div>
-     <div class="tag">Java</div>
-     <div class="tag">JavaScript</div>
-     <div class="tag">HTML</div>
-     <div class="tag">CSS</div>
-     <div class="tag">SQL</div>
-    </section>
-  
-    <section>
-     <h3 class="mrg">Other technologies:</h3>
-     <div class="tag">Django</div>
-     <div class="tag">Ubuntu</div>
-     <div class="tag">Linux</div>
-     <div class="tag">Git</div>
-     <div class="tag">Markdown</div>
-    </section>
+    <div class="text second">
+      <div class="point"></div>
+      <div class="center_line"></div>
+
+      <h3 class="edu_name">The Complete Web Developer</h3>
+      <p class="location">Udemy - Online</p>
+      <span class="date">
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+        Nov-2022
+      </span>
+    </div>
+
+    <div class="text first">
+      <div class="point"></div>
+    
+      <h3 class="edu_name">Python Django - Complete Course</h3>
+      <p class="location">Udemy - Online</p>
+      <span class="date">
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+        Feb-2023
+      </span>
+    </div>
+
    </div>
-  
   </section>
+  <!-- EDUCATION ^^^ -->
 
   <section id="projects">
    <h1>Projects</h1>
@@ -237,3 +265,41 @@
 <script src="./js/typing.js"></script>
 </body>
 </html>
+
+
+
+<!-- <div class="flex">
+    <h1>Education</h1>
+    
+   </div>
+  
+   <div class="info">
+    <section>
+     <h3>Spoken Languages:</h3>
+     <ul>
+      <li><strong>Kazakh</strong> Native Language</li>
+      <li><strong>English</strong> Professional proficiency</li>
+      <li><strong>Russian</strong> Second Language</li>
+     </ul>
+    </section>
+  
+    <section>
+     <h3 class="mrg">Languages:</h3>
+     <div class="tag">Python</div>
+     <div class="tag">Java</div>
+     <div class="tag">JavaScript</div>
+     <div class="tag">HTML</div>
+     <div class="tag">CSS</div>
+     <div class="tag">SQL</div>
+    </section>
+  
+    <section>
+     <h3 class="mrg">Other technologies:</h3>
+     <div class="tag">Django</div>
+     <div class="tag">Ubuntu</div>
+     <div class="tag">Linux</div>
+     <div class="tag">Git</div>
+     <div class="tag">Markdown</div>
+    </section>
+   </div>
+   -->

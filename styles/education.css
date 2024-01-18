@@ -1,0 +1,80 @@
+#education {
+ width: 100%;
+ height: 100vh;
+ box-sizing: border-box;
+ padding: 15px 10%;
+}
+
+#education .container {
+ width: 100%;
+ position: relative;
+ display: flex;
+ flex-direction: column;
+}
+
+#education .text {
+ position: relative;
+ width: calc(50% - 30px);
+ color: #f6f6f6;
+ display: flex;
+ flex-direction: column;
+ font-size: 0.9rem;
+}
+#education .text h3, 
+#education .text p {
+ margin: 0 0 10px 0;
+}
+
+#education .text.first {
+ align-items: flex-end;
+ text-align: end;
+ align-self: flex-start;
+}
+
+#education .text.second {
+ align-items: flex-start;
+ text-align: start;
+ align-self: flex-end;
+}
+
+#education .center_line {
+ position: absolute;
+ top: 5px;
+ width: 3px;
+ height: 100%;
+ background-color: #cea27f;
+}
+
+#education .point {
+ position: absolute;
+ width: 15px;
+ height: 15px;
+ border-radius: 50%;
+ background-color: #cea27f;
+ top: 5px;
+}
+
+#education .first .point {
+ right: -37.5px;
+}
+
+#education .second .point {
+ left: -37.5px;
+}
+
+#education .first .center_line {
+ right: -31.5px;
+}
+
+#education .second .center_line {
+ left: -31.5px;
+}
+
+@media only screen and (max-width: 500px) {
+ #education {
+  padding: 15px 5%;
+ }
+ #education .text {
+  font-size: 0.8rem;
+ }
+}

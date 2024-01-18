@@ -38,4 +38,13 @@ nav {
 #home .info {
  color: #121212;
 }
+#home .info h1 {
+ color: #121212;
+}
 /* Home styles ^^^ */
+
+/* Education */
+#education .text{
+ color: #121212;
+}
+/* Education ^^^ */
