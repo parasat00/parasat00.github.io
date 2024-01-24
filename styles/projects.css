@@ -1,6 +1,6 @@
 #projects {
  width: 100%;
- padding: 25px 0;
+ padding: 25px 0 100px;
 }
 #projects h1 {
  margin-bottom: 0;
@@ -114,11 +114,7 @@
   height: 205px;
  }
 }
-@media only screen and (max-width: 400px) {
-#projects .project_container {
- padding: 15px 30px 50px;
-}
-}
+
 @media only screen and (max-width: 350px) {
  #projects .image_container img {
   max-width: 200px;
