@@ -48,3 +48,13 @@ nav {
  color: #121212;
 }
 /* Education ^^^ */
+
+/* Projects */
+#projects .project_container {
+ color: #121212;
+}
+#projects .sub_header,
+#projects .content .stack {
+ color: hsl(0, 0%, 20%);
+}
+/* Projects ^^^ */
