@@ -14,6 +14,7 @@
  <link rel="stylesheet" href="./styles/about.css" name="about">
  <link rel="stylesheet" href="./styles/education.css" name="education">
  <link rel="stylesheet" href="./styles/footer.css" name="footer">
+ <link rel="stylesheet" href="./styles/projects.css" name="projects">
 
  <link rel="stylesheet" href="" id="theme" name="theme">
  <link href="./images/logo.png" type="image/x-icon" rel="icon" />
@@ -146,114 +147,150 @@
    <h1>Education</h1>
 
    <div class="container">
-
-    <div class="text first">
-      <div class="point"></div>
-      <div class="center_line"></div>
-
-      <h3 class="edu_name">General Secondary School №1</h3>
-      <p class="location">Primary School - Qulsary</p>
-      <span class="date">
-        <i class="fa fa-calendar" aria-hidden="true"></i>
-        2006-2013
-      </span>
+    <div class="edu_tree">
+      <div class="leaf left">
+        <h3 class="name">General Secondary School №1</h3>
+        <p class="location">Primary School - Qulsary</p>
+        <span class="date">
+          <i class="fa fa-calendar" aria-hidden="true"></i>
+          2006-2013
+        </span>
+      </div>
+      
+      <div class="branch">
+        <span class="point"></span>
+        <span class="line"></span>
+      </div>
     </div>
 
-    <div class="text second">
-      <div class="point"></div>
-      <div class="center_line"></div>
+    <div class="edu_tree">
+      <div></div>
+      
+      <div class="branch">
+        <span class="point"></span>
+        <span class="line"></span>
+      </div>
 
-      <h3 class="edu_name">Nazarbayev Intellectual School</h3>
-      <p class="location">High School- Atyrau</p>
-      <span class="date">
-        <i class="fa fa-calendar" aria-hidden="true"></i>
-        2013-2019
-      </span>
+      <div class="leaf">
+        <h3 class="name">Nazarbayev Intellectual School</h3>
+        <p class="location">High School- Atyrau</p>
+        <span class="date">
+          <i class="fa fa-calendar" aria-hidden="true"></i>
+          2013-2019
+        </span>
+      </div>
     </div>
 
-    <div class="text first">
-      <div class="point"></div>
-      <div class="center_line"></div>
+    <div class="edu_tree">
+      <div class="leaf left">
+        <h3 class="name">Suleyman Demirel University</h3>
+        <p class="location">Computer Science Bachelor - Almaty</p>
+        <span class="date">
+          <i class="fa fa-calendar" aria-hidden="true"></i>
+          2019-2023
+        </span>
+      </div>
+  
+      <div class="branch">
+        <span class="point"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+
+    <div class="edu_tree">
+      <div></div>
     
-      <h3 class="edu_name">Suleyman Demirel University</h3>
-      <p class="location">Computer Science Bachelor - Almaty</p>
-      <span class="date">
-        <i class="fa fa-calendar" aria-hidden="true"></i>
-        2019-2023
-      </span>
-    </div>
-
-    <div class="text second">
-      <div class="point"></div>
-      <div class="center_line"></div>
-
-      <h3 class="edu_name">The Complete Web Developer</h3>
-      <p class="location">Udemy - Online</p>
-      <span class="date">
-        <i class="fa fa-calendar" aria-hidden="true"></i>
-        Nov-2022
-      </span>
-    </div>
-
-    <div class="text first">
-      <div class="point"></div>
+      <div class="branch">
+        <span class="point"></span>
+        <span class="line"></span>
+      </div>
     
-      <h3 class="edu_name">Python Django - Complete Course</h3>
-      <p class="location">Udemy - Online</p>
-      <span class="date">
-        <i class="fa fa-calendar" aria-hidden="true"></i>
-        Feb-2023
-      </span>
+      <div class="leaf">
+        <h3 class="name">The Complete Web Developer</h3>
+        <p class="location">Udemy - Online</p>
+        <span class="date">
+          <i class="fa fa-calendar" aria-hidden="true"></i>
+          Nov-2022
+        </span>
+      </div>
+    </div>
+
+    <div class="edu_tree">
+      <div class="leaf left">
+        <h3 class="name">Python Django - Complete Course</h3>
+        <p class="location">Udemy - Online</p>
+        <span class="date">
+          <i class="fa fa-calendar" aria-hidden="true"></i>
+          Feb-2023
+        </span>
+      </div>
+    
+      <div class="branch">
+        <span class="point"></span>
+      </div>
     </div>
 
    </div>
   </section>
   <!-- EDUCATION ^^^ -->
 
+  <!-- Projects -->
   <section id="projects">
    <h1>Projects</h1>
-   <div class="grid">
-    <section class="project my_paragraph">
-      <div class="txt">
-        <a target="_blank" href="https://github.com/parasat00/Ecommerce-Website/tree/main">Ecommerce Website</a> I followed
-        Udemy course to make this project using Django, DRF, React and Redux. I also used Jason Web Tokens (JWT) for
-        authentication and authorization. Learned a lot!
-      </div>
-      <div class="project--stack">
-        <div>#Django</div>
-        <div>#DRF</div>
-        <div>#React</div>
-        <div>#Redux</div>
-      </div>
-    </section>
-    <section class="project my_paragraph">
-     <div class="txt">
-      <a target="_blank" href="https://github.com/parasat00/SDU-Career-Roadmap">SDU Career Roadmap</a>
-      the project to make educational and interactive website for students with the functionality
-      to choose the course and teachers, professionals who will give the feedback to their work.
-     </div>
-     <div class="project--stack">
-      <div>#Django</div> <div>#HTML</div> <div>#CSS</div> <div>#JS</div>
-     </div>
-    </section>
-    <section class="project my_paragraph">
-     <div class="txt">
-      <a target="_blank" href="https://github.com/parasat00/toDoApp">ToDoApp</a>
-      with Python and Django. Here I decided to test my newly acquired skills in Django framework. I
-      created models, functional views, templates and forms. App has basic CRUD functionality.
-     </div>
-    <div class="project--stack">
-      <div>#Django</div>
-      <div>#HTML</div>
-      <div>#CSS</div>
-      <div>#JS</div>
+   <div class="sub_header">My works</div>
+
+   <div class="container">
+
+    <div class="slider_button left">
+      <i class="fa fa-chevron-left" aria-hidden="true"></i>
     </div>
-    </section>
-   </div>
-   <div class="challenge">
-    I am taking a challenge, where I have to code everyday at least for an hour. I share all my progress and thought process <a href="https://parasat00.github.io/100days/">here</a>
+    <div class="slider_button right">
+      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+    </div>
+
+    <div class="slider" data-project-count="3">
+      <div class="project_container">
+        <div class="image_container">
+          <img src="./images/BrowserView.png" alt="toDoApp">
+        </div>
+        <div class="content">
+          <h3 class="project_title">To-Do App</h3>
+          <p class="stack">Django.py</p>
+          <p class="description">Simple to-do app, with functionality for create, edit, delete tasks (CRUD) and mark them complete. The project was made as a way to test acquired knowledge about Django framework</p>
+          <a href="https://github.com/parasat00/toDoApp/" class="button">Learn more</a>
+        </div>
+      </div>
+
+      <div class="project_container">
+        <div class="image_container">
+          <img src="./images/Ecommerce.png" alt="Ecommerce">
+        </div>
+        <div class="content">
+          <h3 class="project_title">Ecommerce Website</h3>
+          <p class="stack">Django.py, React.js and Redux</p>
+          <p class="description">Ecommerce web application with functionality for authentication and authorization (JWT), as well as admin panel, carting and shipping the products</p>
+          <a href="https://github.com/parasat00/Ecommerce-Website/tree/main" class="button">Learn more</a>
+        </div>
+      </div>
+
+      <div class="project_container">
+        <div class="image_container">
+          <img src="./images/Career_Roadmap.png" alt="Ecommerce">
+        </div>
+        <div class="content">
+          <h3 class="project_title">SDU Career Roadmap</h3>
+          <p class="stack">Django.py</p>
+          <p class="description">Educational web platform with functionality to authentication and authorization (JWT), as
+            well as admin panel, complete tasks, tracks</p>
+          <a href="https://github.com/parasat00/SDU-Career-Roadmap" class="button">Learn more</a>
+        </div>
+      </div>
+
+    </div>
+
    </div>
   </section>
+  <!-- Projects ^^^ -->
 
   <!-- Footer -->
   <footer>
@@ -312,6 +349,7 @@
 
 <script src="./js/index.js"></script>
 <script src="./js/typing.js"></script>
+<script src="./js/slider.js"></script>
 </body>
 </html>
 

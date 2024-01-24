@@ -1,0 +1,132 @@
+#projects {
+ width: 100%;
+ padding: 25px 0;
+}
+#projects h1 {
+ margin-bottom: 0;
+}
+#projects .sub_header {
+ color: #f6f6f6;
+ text-align: center;
+ margin: 0 auto 30px;
+}
+#projects .container {
+ width: 100%;
+ overflow: hidden;
+ position: relative;
+}
+#projects .slider {
+ transition: 1s;
+}
+#projects .slider_button {
+ position: absolute;
+ z-index: 2;
+ cursor: pointer;
+ top: 50%;
+ transform: translateY(-50%);
+}
+#projects .slider_button i {
+ color: rgb(221, 177, 140);
+ font-size: 2rem;
+}
+#projects .slider_button i:hover{
+ color: rgb(194, 150, 114);
+}
+#projects .slider_button.left {
+ left: 15px;
+}
+#projects .slider_button.right {
+ right: 15px;
+}
+#projects .slider_button.disable {
+ opacity: 40%;
+ cursor: default;
+}
+#projects .container .slider {
+ display: flex;
+}
+#projects .project_container {
+ display: grid;
+ padding: 15px 50px;
+ box-sizing: border-box;
+ color: #f6f6f6;
+ font-size: 0.8rem;
+ min-width: 100vw;
+ max-width: 100vw;
+}
+#projects .image_container {
+ display: flex;
+ justify-content: center;
+}
+#projects .image_container img {
+ width: 100%;
+ height: 100%;
+ max-width: 30vw;
+ max-height: 20vw;
+ border-radius: 20px;
+}
+#projects .project_title {
+ font-size: 1.2rem;
+ margin: 10px 0 5px;
+ color: rgb(194, 150, 114);
+}
+#projects .content .stack {
+ margin: 0 0 15px;
+ color: hsl(0, 0%, 80%);
+}
+#projects .content .description {
+ margin-bottom: 40px;
+}
+#projects .content .button {
+ padding: 8px 15px;
+ border-radius: 10px;
+ text-decoration: none;
+ color: #f6f6f6;
+ background-color: rgb(221, 177, 140);
+ font-weight: 600;
+ font-size: 1rem;
+}
+#projects .content .button:hover {
+ background-color: rgb(194, 150, 114);
+}
+@media only screen and (max-width: 800px) {
+ #projects .image_container img {
+  max-width: 40vw;
+  max-height: 25vw;
+ }
+}
+@media only screen and (min-width: 600px) {
+ #projects .project_container {
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+ }
+ #projects .image_container {
+  justify-content: flex-end;
+ }
+}
+@media only screen and (max-width: 500px) {
+ #projects .image_container img {
+  max-width: 300px;
+  max-height: 100%;
+ }
+ #projects .image_container {
+  width: 100%;
+  height: 205px;
+ }
+}
+@media only screen and (max-width: 400px) {
+#projects .project_container {
+ padding: 15px 30px 50px;
+}
+}
+@media only screen and (max-width: 350px) {
+ #projects .image_container img {
+  max-width: 200px;
+  max-height: 100%;
+ }
+ 
+ #projects .image_container {
+  width: 100%;
+  height: 130px;
+ }
+}
