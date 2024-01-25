@@ -58,3 +58,10 @@ nav {
  color: hsl(0, 0%, 20%);
 }
 /* Projects ^^^ */
+
+/* Skills */
+#skills .sub_header,
+#skills {
+ color: hsl(0, 0%, 20%);
+}
+/* Skills ^^^ */

@@ -1,0 +1,121 @@
+#skills {
+ padding: 50px 0;
+ margin: 0;
+ color: #f8f8f8;
+}
+#skills h1 {
+ margin: 20px 0 0;
+}
+#skills .sub_header {
+ color: #f6f6f6;
+ text-align: center;
+ margin: 0 auto 30px;
+}
+#skills .flex {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 30px;
+ margin-top: 100px;
+}
+#skills .col {
+ border-radius: 10%;
+ padding: 0 2rem 2rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ font-size: 1.2rem;
+ width: 200px;
+ box-shadow: inset 0 0 0.5px 1px hsla(0, 0%,
+    100%, 0.075),
+   /* shadow ring 👇 */
+   0 0 0 1px hsla(0, 0%, 0%, 0.05),
+   /* multiple soft shadows 👇 */
+   0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
+   0 0.9px 1.5px hsla(0, 0%, 0%, 0.045),
+   0 3.5px 6px hsla(0, 0%, 0%, 0.09);
+}
+#skills .col ul {
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ align-self: flex-start;
+}
+#skills .col li {
+ margin-bottom: 10px;
+}
+#skills .col li::before {
+ content: "✓";
+ font-weight: 800;
+ color: rgb(194, 150, 114);
+ margin-right: 10px;
+}
+#skills .col .icon {
+ width: 80px;
+ height: 80px;
+ background-color: rgb(194, 150, 114);
+ border-radius: 50%;
+ text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ top: -40px;
+}
+#skills .col i {
+ font-size: 3rem;
+ color: #f8f8f8;
+}
+#skills .col h3 {
+ margin-top: 0;
+ color: rgb(194, 150, 114);
+}
+@media only screen and (max-width: 900px) {
+ #skills .flex {
+  flex-direction: column;
+  align-items: center;
+ }
+ #skills .col {
+  width: 100%;
+  max-width: 80%;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+ }
+}
+@media only screen and (max-width: 600px) {
+ #skills .col {
+  font-size: 1rem;
+ }
+ #skills .col i {
+  font-size: 2.4rem;
+ }
+ #skills .col .icon {
+  width: 70px;
+  height: 70px;
+  top: -35px;
+ }
+}
+@media only screen and (max-width: 300px) {
+ #skills .col {
+  width: 100%;
+  max-width: 95%;
+  padding: 0 1.4rem 1.4rem;
+  margin-bottom: 20px;
+  font-size: 0.8rem;
+ }
+ #skills .col i {
+  font-size: 2rem;
+ }
+
+ #skills .col .icon {
+  width: 60px;
+  height: 60px;
+  top: -30px;
+ }
+ #skills .col ul {
+  overflow: hidden;
+ }
+ #skills .col li::before{
+  padding-right: 5px;
+ }
+}
