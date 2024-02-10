@@ -10,6 +10,17 @@
  text-align: center;
  margin: 0 auto 30px;
 }
+#projects .sub_header-link {
+ margin-top: 20px;
+ text-align: center;
+ color: #f6f6f6;
+}
+#projects .sub_header-link a {
+ color: rgb(221, 177, 140);
+}
+#projects .sub_header-link a:hover {
+ color: rgb(194, 150, 114);
+}
 #projects .container {
  width: 100%;
  overflow: hidden;
